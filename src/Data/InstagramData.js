@@ -1,0 +1,66 @@
+const InstagramEngagementData = [
+  { label: 'Jan 22', engagementRate: 25, followerGrowthRate: 1100 },
+  { label: 'Feb 22', engagementRate: 28, followerGrowthRate: 1300 },
+  { label: 'Mar 22', engagementRate: 32, followerGrowthRate: 1500 },
+  { label: 'Apr 22', engagementRate: 36, followerGrowthRate: 1700 },
+  { label: 'May 22', engagementRate: 40, followerGrowthRate: 1900 },
+  { label: 'Jun 22', engagementRate: 44, followerGrowthRate: 2100 },
+  { label: 'Jul 22', engagementRate: 48, followerGrowthRate: 2300 },
+  { label: 'Aug 22', engagementRate: 52, followerGrowthRate: 2500 },
+  { label: 'Sep 22', engagementRate: 56, followerGrowthRate: 2700 },
+  { label: 'Oct 22', engagementRate: 60, followerGrowthRate: 2900 },
+  { label: 'Nov 22', engagementRate: 64, followerGrowthRate: 3100 },
+  { label: 'Dec 22', engagementRate: 68, followerGrowthRate: 3300 },
+  { label: 'Jan 23', engagementRate: 72, followerGrowthRate: 3500 },
+  { label: 'Feb 23', engagementRate: 76, followerGrowthRate: 3700 },
+  { label: 'Mar 23', engagementRate: 80, followerGrowthRate: 3900 },
+  { label: 'Apr 23', engagementRate: 84, followerGrowthRate: 4100 },
+  { label: 'May 23', engagementRate: 88, followerGrowthRate: 4300 },
+  { label: 'Jun 23', engagementRate: 92, followerGrowthRate: 4500 },
+  { label: 'Jul 23', engagementRate: 96, followerGrowthRate: 4700 },
+  { label: 'Aug 23', engagementRate: 96, followerGrowthRate: 4900 },
+  { label: 'Sep 23', engagementRate: 96, followerGrowthRate: 5100 },
+  { label: 'Oct 23', engagementRate: 96, followerGrowthRate: 5300 },
+  { label: 'Nov 23', engagementRate: 96, followerGrowthRate: 5500 },
+  { label: 'Dec 23', engagementRate: 96, followerGrowthRate: 5700 },
+];
+
+const InstagramDemographicData = [
+  {
+    ageGroup: '18-24',
+    male: 3300,
+    female: 3900,
+    nonBinary: 240,
+    preferNotToSay: 120,
+  },
+  {
+    ageGroup: '25-34',
+    male: 5100,
+    female: 5700,
+    nonBinary: 420,
+    preferNotToSay: 210,
+  },
+  {
+    ageGroup: '35-44',
+    male: 4200,
+    female: 5100,
+    nonBinary: 300,
+    preferNotToSay: 180,
+  },
+  {
+    ageGroup: '45-54',
+    male: 2700,
+    female: 3300,
+    nonBinary: 180,
+    preferNotToSay: 90,
+  },
+  {
+    ageGroup: '55+',
+    male: 1800,
+    female: 2100,
+    nonBinary: 120,
+    preferNotToSay: 60,
+  },
+];
+
+export { InstagramEngagementData, InstagramDemographicData };

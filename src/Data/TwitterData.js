@@ -1,0 +1,60 @@
+const TwitterEngagementData = [
+  { label: 'Jan 22', engagementRate: 13, followerGrowthRate: 8 },
+  { label: 'Feb 22', engagementRate: 10, followerGrowthRate: 6 },
+  { label: 'Mar 22', engagementRate: 8, followerGrowthRate: 4 },
+  { label: 'Apr 22', engagementRate: 6, followerGrowthRate: 2 },
+  { label: 'May 22', engagementRate: 4, followerGrowthRate: 0 },
+  { label: 'Jun 22', engagementRate: 2, followerGrowthRate: 0 },
+  { label: 'Jul 22', engagementRate: 3, followerGrowthRate: 0 },
+  { label: 'Aug 22', engagementRate: 4, followerGrowthRate: 0 },
+  { label: 'Sep 22', engagementRate: 6, followerGrowthRate: 2 },
+  { label: 'Oct 22', engagementRate: 9, followerGrowthRate: 5 },
+  { label: 'Nov 22', engagementRate: 12, followerGrowthRate: 8 },
+  { label: 'Dec 22', engagementRate: 15, followerGrowthRate: 11 },
+  { label: 'Jan 23', engagementRate: 18, followerGrowthRate: 14 },
+  { label: 'Feb 23', engagementRate: 22, followerGrowthRate: 18 },
+  { label: 'Mar 23', engagementRate: 26, followerGrowthRate: 22 },
+  { label: 'Apr 23', engagementRate: 30, followerGrowthRate: 26 },
+  { label: 'May 23', engagementRate: 34, followerGrowthRate: 30 },
+  { label: 'Jun 23', engagementRate: 38, followerGrowthRate: 34 },
+  { label: 'Jul 23', engagementRate: 42, followerGrowthRate: 38 },
+  { label: 'Aug 23', engagementRate: 46, followerGrowthRate: 42 },
+  { label: 'Sep 23', engagementRate: 50, followerGrowthRate: 46 },
+  { label: 'Oct 23', engagementRate: 54, followerGrowthRate: 50 },
+  { label: 'Nov 23', engagementRate: 58, followerGrowthRate: 54 },
+  { label: 'Dec 23', engagementRate: 62, followerGrowthRate: 58 },
+];
+
+const TwitterDemographicData = [
+  {
+    ageGroup: '18-24',
+    male: 250,
+    female: 40,
+    nonBinary: 5,
+    preferNotToSay: 0,
+  },
+  {
+    ageGroup: '25-34',
+    male: 220,
+    female: 250,
+    nonBinary: 18,
+    preferNotToSay: 10,
+  },
+  {
+    ageGroup: '35-44',
+    male: 180,
+    female: 220,
+    nonBinary: 15,
+    preferNotToSay: 8,
+  },
+  {
+    ageGroup: '45-54',
+    male: 120,
+    female: 150,
+    nonBinary: 10,
+    preferNotToSay: 5,
+  },
+  { ageGroup: '55+', male: 80, female: 90, nonBinary: 6, preferNotToSay: 4 },
+];
+
+export { TwitterEngagementData, TwitterDemographicData };

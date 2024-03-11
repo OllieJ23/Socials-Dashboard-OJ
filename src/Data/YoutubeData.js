@@ -1,0 +1,60 @@
+const YoutubeEngagementData = [
+  { label: 'Jan 22', engagementRate: 20, followerGrowthRate: 15 },
+  { label: 'Feb 22', engagementRate: 22, followerGrowthRate: 18 },
+  { label: 'Mar 22', engagementRate: 25, followerGrowthRate: 20 },
+  { label: 'Apr 22', engagementRate: 27, followerGrowthRate: 22 },
+  { label: 'May 22', engagementRate: 30, followerGrowthRate: 25 },
+  { label: 'Jun 22', engagementRate: 32, followerGrowthRate: 28 },
+  { label: 'Jul 22', engagementRate: 35, followerGrowthRate: 30 },
+  { label: 'Aug 22', engagementRate: 37, followerGrowthRate: 32 },
+  { label: 'Sep 22', engagementRate: 40, followerGrowthRate: 35 },
+  { label: 'Oct 22', engagementRate: 42, followerGrowthRate: 38 },
+  { label: 'Nov 22', engagementRate: 45, followerGrowthRate: 40 },
+  { label: 'Dec 22', engagementRate: 47, followerGrowthRate: 42 },
+  { label: 'Jan 23', engagementRate: 50, followerGrowthRate: 45 },
+  { label: 'Feb 23', engagementRate: 52, followerGrowthRate: 48 },
+  { label: 'Mar 23', engagementRate: 55, followerGrowthRate: 50 },
+  { label: 'Apr 23', engagementRate: 57, followerGrowthRate: 52 },
+  { label: 'May 23', engagementRate: 60, followerGrowthRate: 55 },
+  { label: 'Jun 23', engagementRate: 62, followerGrowthRate: 58 },
+  { label: 'Jul 23', engagementRate: 65, followerGrowthRate: 60 },
+  { label: 'Aug 23', engagementRate: 67, followerGrowthRate: 62 },
+  { label: 'Sep 23', engagementRate: 70, followerGrowthRate: 65 },
+  { label: 'Oct 23', engagementRate: 72, followerGrowthRate: 68 },
+  { label: 'Nov 23', engagementRate: 75, followerGrowthRate: 70 },
+  { label: 'Dec 23', engagementRate: 78, followerGrowthRate: 72 },
+];
+
+const YoutubeDemographicData = [
+  {
+    ageGroup: '18-24',
+    male: 120,
+    female: 140,
+    nonBinary: 10,
+    preferNotToSay: 5,
+  },
+  {
+    ageGroup: '25-34',
+    male: 180,
+    female: 200,
+    nonBinary: 15,
+    preferNotToSay: 8,
+  },
+  {
+    ageGroup: '35-44',
+    male: 150,
+    female: 180,
+    nonBinary: 12,
+    preferNotToSay: 7,
+  },
+  {
+    ageGroup: '45-54',
+    male: 100,
+    female: 120,
+    nonBinary: 8,
+    preferNotToSay: 4,
+  },
+  { ageGroup: '55+', male: 70, female: 80, nonBinary: 5, preferNotToSay: 3 },
+];
+
+export { YoutubeEngagementData, YoutubeDemographicData };
