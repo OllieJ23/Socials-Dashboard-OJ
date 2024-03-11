@@ -31,11 +31,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Dark-Mode-Design](public\SMD Screenshot 1.png)
-![LightMode](public\SMD Screenshot 2.png)
-![ModalWindow](public\SMD Screenshot 3.png)
-![MobileView](public\SMD Screenshot 4.png)
-![Modal-in-MobileView](public\SMD Screenshot 5.png)
+![Dark-Mode-Design](./SMD Screenshot 1.png)
+![LightMode](./SMD Screenshot 2.png)
+![ModalWindow](./SMD Screenshot 3.png)
+![MobileView](./SMD Screenshot 4.png)
+![Modal-in-MobileView](./SMD Screenshot 5.png)
 
 ### Built with
 
