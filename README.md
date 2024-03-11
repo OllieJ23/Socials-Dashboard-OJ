@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Dark-Mode-Design](SMD Screenshot 1.png)
+![](SMD Screenshot 1.png)
 ![LightMode](./SMD Screenshot 2.png)
 ![ModalWindow](./SMD Screenshot 3.png)
 ![MobileView](./SMD Screenshot 4.png)
